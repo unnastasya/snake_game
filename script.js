@@ -68,7 +68,7 @@ function drawGame() {
     ctx.drawImage(cup, 5 * box, 1 * box )
 
     for (let i = 0; i < snake.length; i++) {
-        ctx.fillStyle = i == 0 ? "green": "green";
+        ctx.fillStyle = i == 0 ? "blue": "blue";
         ctx.fillRect(snake[i].x, snake[i].y, box, box);
     }
 
