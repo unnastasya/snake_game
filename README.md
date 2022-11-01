@@ -1,2 +1,2 @@
 # snake_game
-<img src="media/screenshot1">
+<img src="screenshot1.png">
