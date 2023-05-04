@@ -29,11 +29,12 @@ snake[0] ={
     y: 13 * box,
 };
 
+alert("Для старта игры нажмите любую клавишу управления");
+
 //обработчик события
 document.addEventListener("keydown", direction);
 
 let dir;
-
 
 function direction(event) {
     if(event.keyCode == 37 && dir != "right") {
